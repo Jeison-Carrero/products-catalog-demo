@@ -1,50 +1,42 @@
-# React + TypeScript + Vite
+# 🛍️  🛒  Demo - Catálogo de productos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una pagina web desarrollada con React, que permite visualizar diferentes modelos de telefonos y simula la interfas para una tienda vitual.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✔️ Selección de filtros: Se pueden filtrar los porductos por marcas y por precios.
+✔️ Selección de información del producto.
+✔️ Selección de venta e información detallada.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologías utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+🔹 React + Vite.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+🔹 HTML5, CSS3, TypeScript.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+🔹 Tailwindcss, FontAwesomeIcon.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+🔹 React Router Dom
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Instalación
+
+Para desplegar el proyecto en local, sigue los siguientes pasos:
+
+1. Clona este repositorio:
+   
+         git clone https://github.com/Jeison-Carrero/calorie-counter.git
+   
+2. Importa el proyecto en tu IDE favorito (Visual studio recomendado)
+ 
+3. Abre una terminal y ejecuta el siguiente comando para descargar las dependencias:
+   
+        npm install
+   
+3. Luego ejecuta este comando para ejecutar el proyecto:
+   
+        ng serve
+
+4. copia y pega esta URL en tu navegador favorito para ver la interfaz de usuario:
+
+        http://localhost:4200/   
