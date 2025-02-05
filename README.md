@@ -1,23 +1,26 @@
-# 🛍️  🛒  Demo - Catálogo de productos
+# 🛍️  🛒  Demo - Catálogo de Productos
 
-Este proyecto es una pagina web desarrollada con React, que permite visualizar diferentes modelos de telefonos y simula la interfas para una tienda vitual.
+Este proyecto es una página web desarrollada con React que simula una tienda virtual de celulares. Permite visualizar diferentes modelos de teléfonos, sus características e imágenes.
+Se desarrolló utilizando custom hooks, React Router DOM para la gestión de varias pantallas y componentes reutilizables.
 
 ## Funcionalidades
 
-✔️ Selección de filtros: Se pueden filtrar los porductos por marcas y por precios.
-✔️ Selección de información del producto.
-✔️ Selección de venta e información detallada.
+✔️ Filtros de búsqueda: permite filtrar los productos por marca y por rango de precios.
+
+✔️ Visualización de información del producto: muestra detalles específicos de cada modelo.
+
+✔️ Proceso de compra: opción para seleccionar productos y ver información detallada de la venta.
 
 
 ## Tecnologías utilizadas
 
-🔹 React + Vite.
+🔹 React + Vite
 
-🔹 HTML5, CSS3, TypeScript.
+🔹 HTML5, CSS3, TypeScript
 
-🔹 Tailwindcss, FontAwesomeIcon.
+🔹 Tailwind CSS, FontAwesome
 
-🔹 React Router Dom
+🔹 React Router DOM
 
 ## Instalación
 
@@ -25,7 +28,7 @@ Para desplegar el proyecto en local, sigue los siguientes pasos:
 
 1. Clona este repositorio:
    
-         git clone https://github.com/Jeison-Carrero/calorie-counter.git
+         git clone https://github.com/Jeison-Carrero/products-catalog-demo.git
    
 2. Importa el proyecto en tu IDE favorito (Visual studio recomendado)
  
@@ -35,8 +38,8 @@ Para desplegar el proyecto en local, sigue los siguientes pasos:
    
 3. Luego ejecuta este comando para ejecutar el proyecto:
    
-        ng serve
+        npm run dev
 
 4. copia y pega esta URL en tu navegador favorito para ver la interfaz de usuario:
 
-        http://localhost:4200/   
+        http://localhost:5173/cell-phones
